@@ -1,0 +1,38 @@
+# Сборка Rust и Android
+/mobile/target/
+/mobile/build/
+.gradle/
+local.properties
+*.apk
+*.apk.idsig
+*.aab
+
+# Локальные настройки и ключи подписи
+.env
+.env.*
+!.env.example
+!.example.env
+*.jks
+*.keystore
+key.properties
+
+# Окружения Python и данные CampusBOT
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-shm
+*.sqlite3-wal
+user_actions.json
+captcha/
+
+# Файлы редакторов и системы
+.idea/
+*.iml
+*.swp
+*.log
+.DS_Store
+Thumbs.db
